@@ -11,10 +11,15 @@ function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-sm-3">
-            <input type="submit" value="search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="search"
+              className="btn btn-primary  w-100"
+            />
           </div>
         </div>
       </form>
@@ -33,7 +38,8 @@ function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
             alt="mostly cloudy"
           ></img>
-          <span className="temperature">10 °C</span>
+          <span className="temperature">10 </span>{" "}
+          <span className="units">°C</span>
         </div>
         <div className="col-sm-6">
           <ul>
