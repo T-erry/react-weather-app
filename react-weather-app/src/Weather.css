@@ -25,12 +25,12 @@
   margin-left: 20px;
 }
 .Weather .temperature {
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 300;
 }
 .Weather .units {
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -20px;
+  top: -15px;
 }
