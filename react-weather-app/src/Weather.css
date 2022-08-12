@@ -2,6 +2,7 @@
   font-family: arial, sans-serif;
   border: 1px solid #000;
   margin: 30px auto;
+  color: #e3a500;
 }
 .Weather form {
   margin-bottom: 20px;
@@ -27,6 +28,7 @@
 .Weather .temperature {
   font-size: 30px;
   font-weight: 300;
+  line-height: 64px;
 }
 .Weather .units {
   font-size: 16px;
