@@ -25,8 +25,12 @@
   list-style-type: none;
   margin-left: 20px;
 }
+.Weather img canvas {
+  height: 62px;
+  display: inline-block;
+}
 .Weather .temperature {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 64px;
 }
@@ -34,5 +38,5 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -15px;
+  top: -30px;
 }
