@@ -58,6 +58,17 @@ function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
+        <footer>
+          This code was coded by{" "}
+          <a href="https://github.com/T-erry">Terry Wachuka</a>
+          and{" "}
+          <a
+            href="https://github.com/T-erry/react-weather-app.git"
+            target="-blank"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     );
   } else {

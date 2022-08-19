@@ -2,14 +2,14 @@
   font-family: arial, sans-serif;
   border: 1px solid #000;
   margin: 30px auto;
-  color: #e3a500;
+  color: #000;
 }
 .Weather form {
   margin-bottom: 20px;
   padding: 20px;
 }
 .Weather .location h1 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 100;
   line-height: 29px;
   margin-left: 20px;
@@ -30,12 +30,19 @@
 }
 .Weather .temperature {
   font-size: 50px;
-  font-weight: 300;
-  line-height: 64px;
+  font-weight: 700;
+  line-height: 1;
 }
 .Weather .units {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   position: relative;
-  top: -30px;
+  top: -20px;
+  line-height: 1;
+}
+.Weather footer {
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  padding: 10px;
 }

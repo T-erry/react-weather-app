@@ -1,7 +1,10 @@
 .WeatherForecast {
-  margin: 20px;
+  margin: 50px;
 }
 .WeatherForecast-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+.WeatherForecast-max {
+  font-weight: bold;
 }
