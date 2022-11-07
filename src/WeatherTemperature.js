@@ -6,7 +6,6 @@ function WeatherTemperature(props) {
       <span className="temperature">{Math.round(props.celsius)} </span>{" "}
       <span className="units">°C </span>
     </span>
-
   );
 }
 export default WeatherTemperature;
